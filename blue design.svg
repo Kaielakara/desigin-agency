@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="527px" height="151px" viewBox="0 0 527 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>speaker_image</title>
+    <desc>Created with Sketch.</desc>
+    <g id="speaker_image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#6C60E8" x="81" y="0" width="165" height="22"></rect>
+            <rect id="Rectangle-Copy-8" fill="#FFFDFD" style="mix-blend-mode: screen;" x="163" y="44" width="165" height="22"></rect>
+            <rect id="Rectangle-Copy-13" fill="#6C60E8" x="0" y="66" width="163" height="22"></rect>
+            <rect id="Rectangle-Copy-23" fill="#FFFDFD" style="mix-blend-mode: screen;" x="81" y="108" width="165" height="22"></rect>
+            <rect id="Rectangle-Copy-24" fill="#6C60E8" x="81" y="130" width="83" height="22"></rect>
+            <rect id="Rectangle-Copy-57" fill="#6C60E8" x="410" y="22" width="83" height="22"></rect>
+            <rect id="Rectangle" fill="#FFFDFD" style="mix-blend-mode: screen;" transform="translate(410.500000, 77.000000) scale(-1, 1) translate(-410.500000, -77.000000) " x="328" y="66" width="165" height="22"></rect>
+            <rect id="Rectangle-Copy-8" fill="#FFFDFD" style="mix-blend-mode: screen;" transform="translate(410.500000, 120.000000) scale(-1, 1) translate(-410.500000, -120.000000) " x="328" y="109" width="165" height="22"></rect>
+            <rect id="Rectangle-Copy-13" fill="#6C60E8" transform="translate(510.000000, 55.000000) scale(-1, 1) translate(-510.000000, -55.000000) " x="493" y="44" width="34" height="22"></rect>
+        </g>
+    </g>
+</svg>

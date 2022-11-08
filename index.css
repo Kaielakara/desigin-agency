@@ -1,0 +1,550 @@
+*{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar{
+    width: 10%;
+    display: none;
+}
+
+
+@media (max-width:700px){
+    .header-info:not(#nav-bar){
+        display: none;
+    }
+
+    header.div{
+        width: 20%;
+    }
+
+    header div img{
+        width: 150%;
+    }
+
+    #nav-bar{
+        width: 20%;
+    }
+
+    #nav-bar img{
+        width: 50%;
+        margin: 0;
+    }
+}
+
+.general-main-header{
+    font-size: 2.8rem;
+    color: #201F3E;
+}
+
+/* This is for the main 1 the  first screen containing all those elements */
+#main-one{
+    background-color:#201F3E;
+    color: #FFFDFD;
+    max-width: 100% ;
+    padding: 0 3em 2em 3em;
+}
+
+#main-one-sub-one{
+    background-color:#201F3E;
+    color: #FFFDFD;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    padding: 1em 0 1.2em 3em;
+    z-index: 3;
+}
+
+/* this is for the div which the logo is in */
+header #image-logo{
+    width: 50%;
+}
+
+header div img{
+    width: 220%;
+}
+
+/* this is for the navigation  */
+nav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    padding-right: 3em;
+}
+
+
+
+
+/* this is the class in which the navigation is contained in */
+
+
+
+.header-info{
+    margin: 1em;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: .5em;
+}
+
+
+/* this is for the div below the navigation and logo */
+#main-one-sub-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 1.1em 0;
+    column-gap: 14em;
+    padding-top: 1em;
+}
+
+/* this  is for the left sided part of main1 */
+#main-one-sub-two-left input{
+    width: 9em;
+    height: 3.5em;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #201F3E;
+    color: #FFFDFD;
+    border: #FFFDFD 2px solid;
+}
+
+#date-writeup{
+    font-size: 2rem;
+}
+
+#kaiel-writeup{
+    font-size: 3rem;
+}
+
+#witty-writeup{
+    font-size: 2rem;
+}
+
+/* this is for the right handed side of main2 */
+#main-one-sub-two img{
+    position: relative;
+    right: 3.3em;
+    top: 1em;
+    height: 107%; 
+}
+
+
+
+
+
+
+
+
+
+
+#main2{
+    background-color: #6865E0 ;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#main2-sub1{
+    padding: 7em 3em 20em 4em;
+}
+
+#main2 p{
+    color: #FFFDFD;
+    font-size: 2rem;
+    max-width: 25em ;
+}
+
+@media (min-width:40em) {
+    #main2-sub1{
+        padding: 1em;
+    }
+}
+
+#box-video{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 15em;
+}
+
+#box-video iframe{
+    min-width: 350px;
+}
+
+
+
+/* This is for the design of main3 */
+
+#main3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+#main3-sub{
+    display:flex;
+    justify-content: space-around;
+    color: #FFFDFD;
+    width: 95%;
+}
+
+
+#main3-left{
+    background-color: #201F3E;
+}
+
+#main3-right{
+    background-color: #FC4939;
+}
+
+.main3-boxes{
+    width: 33em;
+}
+
+.main3empty{
+    padding: .5em 2em;
+}
+
+.main3-line1{
+    font-size: 1.1em;
+    color: #FEA48C;
+}
+
+#main3-line1-left{
+    color: #908F9F;
+}
+
+.main3-line2{
+    font-size: 1.6em;
+}
+
+.main3-line3{
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.main3-image{
+    display: flex;
+    justify-content:center;
+    padding-top: 8em;
+    padding-bottom: 1em ;
+}
+
+
+
+/* THIS IS FOR THE MAIN4 THE SECTION FOR THE POTRAITS */
+
+#main4{
+    background-color: #F4F4F5;
+}
+
+#main4-subset{
+    padding: 3em;
+    padding-top: 1em;
+}
+
+.main4-heading{
+    font-size: 2.5em;
+    padding: 2em 0;
+}
+
+#main4-heading2{
+    padding: 2em 0;
+}
+
+.portrait-container{
+    width: 23.4em;
+
+}
+
+.portrait{
+    width: 23.4em;
+}
+
+.portrait-name{
+    font-size: 1.2em;
+    font-weight:600;
+}
+
+.portrait-accolade{
+    font-size: 1.1em;
+    font-weight: lighter;
+    margin: 2em 0;
+}
+
+.logo-small{
+    width: 1.5em ;
+    margin:0 .7em 2em 0;
+}
+
+#group-of-speakers{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    right: .5em;
+}
+
+
+
+
+
+
+/* THIS IS FOR THE MAIN 5 CONCERNING THE WORKSHOPS */
+
+#main5-sub{
+    margin: 3em;
+    color: #201F3E;
+}
+
+#main5-header{
+    margin: 6em 0;
+    width: 40%;
+}
+
+#main5-header-line1{
+    font-size: 2.8em;
+}
+
+#main5-sub hr{
+    margin: 4em 0;
+}
+
+.main5-containers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main5-line2{
+    font-size: 1.8em;
+    margin: -.2em 0;
+}
+
+.main5-maincontent{
+    color:#8F9AC7;
+}
+
+.main5-intended-audience span{
+    font-weight: 600;
+}
+
+.main5-get-tickets{
+    width: 10%;
+}
+.main5-get-tickets p{
+    font-size: 1.1em;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+
+
+/* THIS IS FOR THE MAIN 6 CONCERNING THE TICKETS */
+
+#main6-sub{
+    padding: 3em;
+    color: #201F3E;
+}
+
+.main6-boxes{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main6-boxes p{
+    
+}
+
+.main6-boxes input{
+    width: 5.8em;
+    height: 2.3em;
+    text-align: center;
+    color: #949ba5;
+    font-weight:500;
+    background-color: #efefef;
+    border: 0;
+    border-radius: 2px;
+    position: relative;
+    top: .5em;
+}
+
+
+
+
+
+
+/* THIS IS FOR THE MAIN 7 CONCERING THE CONFRENCE VENUE */
+
+
+#main7-sub{
+    padding: 6em 3em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4F5;
+    color: #201F3E;
+}
+
+#main7-sub-left{
+    width: 40%;
+}
+
+#main7-sub-left div{
+    margin: 0 0 2em 0;
+}
+
+
+
+.main7-sub-header{
+    font-weight:600;
+    margin-bottom: -.5em;
+}
+
+
+
+
+
+/* THIS IS FOR THE MAIN 8 CONTAINING THE SPONSORS */
+
+#main8{
+    color: #201F3E;
+}
+
+#main8-sub{
+    padding: 3em;
+}
+
+#main8-writeup{
+    margin-top: -2em;
+}
+
+.main8-sub-headers{
+    font-weight: 600;
+    padding-top: 2em;
+}
+
+.main8-sub-boxes{
+    width: 85%;
+}
+
+.main8-logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main8-sub-boxes-last{
+    width: 52%;
+}
+
+
+#main9{
+    background-color: #6865E0;
+}
+
+#main9-sub{
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main9-sub-left{
+    width: 50%;
+
+}
+
+#main9-sub-left p{
+    color: #FFFDFD;
+}
+
+#latest-news{
+    margin-top: -1.8em;
+    margin-bottom: 2em;
+}
+
+#main9-sub-left input{
+    width: 22.5em;
+    height: 2.8em;
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+
+#main9-sub-left input::placeholder{
+    padding-left: .5em;
+}
+
+#subscribe input{
+    width: 8em;
+    background-color: #201F3E;
+    border: 0 solid;
+    color: #FFFDFD;
+}
+
+
+
+footer{
+    background-color: #211E40;
+}
+
+#footer-sub{
+    padding: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 7.7em;
+    color: #F4F4F5;
+    font-weight: 600;
+}
+
+
+.footer-sub-boxes span{
+    color: #9a9fa5;
+    font-weight: 400;
+}
+
+#mobile-logo{
+    position: relative;
+    top: 1em;
+}
+
+#mobile-logo img{
+    width: 4em;
+}
+
+
+#footer-sub2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em;
+    background-color: #1C1935;
+    color: #F4F4F5;
+    text-decoration: underline;
+}
+
+#footer-left img{
+    margin: 1em .5em;
+    width: 1.6em;
+}
+
+#footer-right{
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+}
+
+#last-footer{
+    text-align: center;
+    background-color: #1C1935;
+    color: #F4F4F5;
+    margin: -1.3em 0;
+    padding: 2em;
+}
